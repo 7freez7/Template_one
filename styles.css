@@ -155,34 +155,32 @@
 
 }
 
+#mailMobile{
+    display:none;
+}
+#mailPC{
+display:block;}
+
 
 
 @media (max-width: 900px) {
-  .footer-map-full iframe {
-    height: 280px;
-   }
-    html { 
-    scroll-behavior: smooth; 
-    }
+  .footer-map-full iframe {height: 280px;}
+
+   #mailMobile{display:block;}
+   #mailPC{display:none;}
+
+
+    html {scroll-behavior: smooth; }
     .hero{grid-template-columns:1fr;}
-    .container{
-        padding:20px;
-        margin: 0 auto;
-    }
-    .container.top{
-        padding: 20px 20px 0 20px;
-    }
+    .container{padding:20px;margin: 0 auto;}
+    .container.top{padding: 20px 20px 0 20px;}
     .grid-3{grid-template-columns:1fr}
     .gallery{grid-template-columns:repeat(2,1fr)}
     .contact{grid-template-columns:1fr}
 
-    .footer-grid {
-    grid-template-columns: 1fr;
-    }
+    .footer-grid {grid-template-columns: 1fr;}
 
-  .footer-map iframe {
-    height: 100px;
-    }
+  .footer-map iframe {height: 100px;}
 
   /* mobilní header: logo vlevo, tagline (terapie • masáže • relaxace) vpravo,
      navigace pod tím v jedné řadě (přizpůsobené velikosti a paddingu) */
@@ -202,13 +200,8 @@
     flex: 0 0 auto;
   }
   /* posun textového bloku doprava až na konec kontejneru */
-  .brand > div {
-    margin-left: auto;
-    text-align: right;
-  }
-  .brand > div .muted {
-    font-size: 12px;
-  }
+  .brand > div {margin-left: auto;text-align: right;}
+  .brand > div .muted {font-size: 12px;}
 
   /* navigace pod brand, v jednom řádku, menší padding a responsivní font */
   nav {
