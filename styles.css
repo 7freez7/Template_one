@@ -168,6 +168,7 @@ display:block;}
 
    #mailMobile{display:block;}
    #mailPC{display:none;}
+   #emailNumTime{font-size: 15px;}
 
 
     html {scroll-behavior: smooth; }
