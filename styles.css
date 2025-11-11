@@ -129,10 +129,11 @@
     
     .new-grid .grid-3 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     overflow: hidden;
-    }    
+    }   
+    
     .card {
     background: var(--card);
     padding: 18px;
@@ -190,13 +191,19 @@ display:block;}
    #mailPC{display:none;}
    #emailNumTime{font-size: 15px;}
 
+    .new-grid .grid-3 .card p.muted {font-size: 12px;}
+    .new-grid .grid-3 .card h3 {font-size: 15px;}
+    .new-grid .grid-3 .card img {height: 150px;}
+
+
+
 
     html {scroll-behavior: smooth; }
     .hero{grid-template-columns:1fr;}
     .container{padding:20px;margin: 0 auto;}
     .container.top{padding: 20px 20px 0 20px;}
     .grid-3{grid-template-columns:1fr}
-    .new-grid .grid-3 {display:grid;grid-template-columns:repeat(2,1fr);gap:10px};
+    .new-grid .grid-3 {display:grid;grid-template-columns:repeat(2,1fr);gap:10px;};
     .gallery{grid-template-columns:repeat(2,1fr)}
     .contact{grid-template-columns:1fr}
 
