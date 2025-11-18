@@ -72,6 +72,7 @@
     button.btn.primary{
         transition: transform 0.2s ease, box-shadow 0.2ms ease, background 0.2s ease;
         will-change: transform, box-shadow;
+        border: 1px solid #e6e9f2;
     }
     button.btn.primary:hover{
     box-shadow: 0 8px 20px rgba(122,92,255,0.18);
