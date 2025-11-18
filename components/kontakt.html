@@ -1,4 +1,4 @@
-<h2 style="margin:0 0 18px">Kontakt a rezervace</h2>
+  <h2 style="margin:0 0 18px">Kontakt a rezervace</h2>
 <div class="contact">
   <div>
     <p class="muted">
@@ -10,11 +10,12 @@
 
   <aside class="card">
     <form action="#" method="post">
-      <input type="text" name="name" placeholder="Jméno" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="text" name="phone" placeholder="Telefon (volitelné)">
-      <textarea name="message" rows="4" placeholder="Zpráva / požadavky"></textarea>
-      <button class="send">Odeslat zprávu</button>
+      <input type="text" name="name" id="name" placeholder="Vaše jméno" required>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+      <input type="text" name="phone" id="phone" placeholder="Telefon (volitelné)">
+      <textarea name="message" id="message" rows="4" placeholder="Zpráva / požadavky"></textarea>
+      <button class="send" type="button" onclick="sendMail()">Odeslat zprávu</button>
     </form>
   </aside>
 </div>
+
